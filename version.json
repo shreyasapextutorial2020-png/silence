@@ -1,0 +1,21 @@
+{
+  "_howto": [
+    "Upload this file to the ROOT of github.com/Shreyas2006-oss/browser (Add file -> Upload files).",
+    "With it in place, shipping an update is: build, upload the installer somewhere with a direct link, edit this one file.",
+    "",
+    "Steps:",
+    "  1. bump the version in package.json   (2.1.0 -> 2.2.0)",
+    "  2. npm run dist                       (installer lands in dist/)",
+    "  3. upload that .exe and copy its direct download link",
+    "  4. set the fields below: version, url, file, size, notes",
+    "  5. commit",
+    "",
+    "Silence picks it up within 6 hours on its own, or instantly via Settings -> Reset & about -> Check for updates.",
+    "Leave version equal to the installed version and nothing is offered (that is the state this file ships in)."
+  ],
+  "version": "2.1.0",
+  "notes": "",
+  "file": "Silence-Setup-2.1.0.exe",
+  "url": "",
+  "size": 0
+}
